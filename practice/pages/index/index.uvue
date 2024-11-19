@@ -1,0 +1,25 @@
+<template>
+	<view class="layout">
+		<view class="box1" hover-class="hoverbox1">巫俊鹏牛逼</view>
+	</view>
+</template>
+
+<script setup>
+
+</script>
+
+<style lang="scss">
+	.layout{
+		border:1px solid red;
+		.box1{
+			width: 200px;
+			height: 50px;
+			color: #ccc;
+			background:blue;
+		}
+	.hoverbox1{
+		background: orangered;
+		
+	}
+	}
+</style>
